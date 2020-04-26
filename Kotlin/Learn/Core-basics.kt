@@ -1,4 +1,4 @@
-import com.sun.jdi.ShortType
+//import com.sun.jdi.ShortType
 
 /*
  *@author is Akhil Menon
@@ -47,4 +47,24 @@ fun main(){
     var firstChar = myString[0] //gives first character of the string
     firstChar = myString[myString.length-1] //gives the last character of the string.
 
+    /*Arithmetic Operations :
+    * Addition(+)
+    * Subtraction(-)
+    * Multiplication(*)
+    * Division(/)
+    * Modulo(%)
+    */
+    var a = 10
+    var b = 20
+    var result: Int
+    result = a+b
+    println("Addition:"+result)
+    result = b-a
+    println("Subtraction:"+result)
+    result = a*b
+    println("Multiplication:"+result)
+    result = b/a
+    println("Division:"+result)
+    result = a%b
+    println("Modulo:"+result)
 }
