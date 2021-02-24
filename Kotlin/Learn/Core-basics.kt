@@ -68,3 +68,19 @@ fun main(){
     result = a%b
     println("Modulo:"+result)
 }
+
+//Basics Functions:
+
+fun add() {
+    var one = 1
+    var two = 2
+    println("Sum is ${one+two}")
+}
+
+fun add2() : Int {
+    var one = 1
+    var two = 2
+    var sum : Int?
+    sum = one+two
+    return sum
+}
