@@ -8,6 +8,18 @@ main(){
 
   addition(10, 20);
 
+  List<String> myStringList = [
+    'Name',
+    'Hello',
+    'Test',
+  ];
+
+  print(myStringList);
+  print(myStringList[2]);
+  print(myStringList.indexOf('Name')); // to find index from value
+
+  myStringList.add('Byeeee');
+  print(myStringList[3]);
 }
 
   // Functions
