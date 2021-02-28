@@ -20,6 +20,10 @@ main(){
 
   myStringList.add('Byeeee');
   print(myStringList[3]);
+
+  myStringList.insert(2, 'LOLOLOL');
+  print(myStringList);
+
 }
 
   // Functions
