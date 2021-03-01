@@ -24,10 +24,14 @@ main(){
   myStringList.insert(2, 'LOLOLOL');
   print(myStringList);
 
+  myStringList.insert(2, '0605LOLOLOL');
+  print(myStringList);
+
 }
 
   // Functions
   void basicFunction(){
+    print('Hello');
 
   }
 
